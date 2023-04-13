@@ -52,27 +52,37 @@ nav a:hover{
 }
 
 .title{
-    border: 10px purple solid;
-    background-color: magenta;
-    height: 150px;
+   
     margin: 0 auto;
     margin-top: 80px;
     width: 70%;
+    font-size: 4.5rem;
+    font-weight: 800;
 }
 
+
+
 .upper-text{
-    border: 5px solid greenyellow;
-    background-color: green;
-    height: 360px;
-    width: 25%;
+  
     
+    width: 25%;
+}
+
+.upper-text>p{
+    margin-bottom: 2rem;
+}
+
+.upper-text>p:last-child{
+    margin-top: 2rem;
+
 }
 
 .jumbotron{
-    border: 5px solid red;
-    background-color: darkred;
+    
     height: 400px;
     width:45%;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 .flex{
     display: flex;
