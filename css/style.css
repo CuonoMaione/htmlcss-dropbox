@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    border: solid; 
+    
     display: flex;
     padding: 1%;
     font-size: 1rem;
@@ -46,32 +46,49 @@ nav a:hover{
 
 .container-large{
     background-color: #b4d0e7;
-    height: 600px;
-    border: 10px solid;
+    padding-top: 3rem;
+    
+    
 
 }
 
 .title{
    
     margin: 0 auto;
-    margin-top: 80px;
     width: 70%;
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 800;
+    
+
+}
+.position-flex{
+    position: relative;
+    top: 60px;
+
+    display: flex;
+    justify-content: center;
 }
 
 
-
 .upper-text{
-  
-    
     width: 25%;
 }
 
 .upper-text>p{
     margin-bottom: 2rem;
+    font-size: 1rem;
 }
 
+.upper-text>i{
+    
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+span{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
 .upper-text>p:last-child{
     margin-top: 2rem;
 
@@ -83,47 +100,79 @@ nav a:hover{
     width:45%;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
 }
 .flex{
     display: flex;
-    justify-content: center;
 }
 
 .container{
     width: 60%;
-    
-    background-color: rgb(247, 203, 203);
     margin: 0 auto;
-    
 }
 
 .title2{
-    height: 150px;
-    border: 3px solid black;
-    
+    margin-bottom: 30px;
+}
+
+
+h2{
+    font-size: 2.4rem;
 }
 
 .business-plane{
     display: flex;
     justify-content: space-between;
+    margin-top: 3rem;
 }
 
 .column{
-    height: 500px;
-    border: 3px solid black;
+
+    border: 1px solid gray;
     width: calc((100% / 3) - 20px);
+  
+}
+
+.column-content{
+    padding:1rem;
+}
+
+.text-center{
+    text-align: center;
+    padding: .5rem;
+}
+
+.column ul{
+    list-style-type: none;
     
 }
+
 .margin{
-    margin-top: 50px;
+    margin-top: 7rem;
 }
 
-
+.hr-small{
+    width: 20%;
+}
 
 .team{
     height: 300px;
-    border: 3px solid red;
+    border: 1px solid gray;
+    margin-top: 2rem;
     
+}
+
+.team>section{
+    display: flex;
+    justify-content: space-between; 
+     
+}
+.team .left-section{
+    flex-basis: 70%;
+    padding: 2rem;
+}
+.team .right-section{
+    flex-basis:30%;
 }
 
 .big-image{
